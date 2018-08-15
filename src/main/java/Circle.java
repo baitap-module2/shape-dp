@@ -5,11 +5,11 @@ public class Circle implements Shape {
     }
 
     public Circle(double radius) {
-        this.radius=radius;
+        this.radius = radius;
     }
 
     @Override
     public void draw() {
-        System.out.println("A circle has radius: "+ radius);
+        System.out.println("A circle has radius: " + radius);
     }
 }
