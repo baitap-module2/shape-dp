@@ -1,10 +1,10 @@
 public class ShapeFactory {
     public Shape getShape(String type) {
-        if (type.equalsIgnoreCase("circle")) {
+        if ("circle".equals(type)) {
             return new Circle();
-        } else if (type.equalsIgnoreCase("square")) {
+        } else if ("square".equals(type)) {
             return new Square();
-        } else if (type.equalsIgnoreCase("rectangle")) {
+        } else if ("rectangle".equals(type)) {
             return new Rectangle();
         } else {
             return null;
